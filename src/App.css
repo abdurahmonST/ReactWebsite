@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+ 
+header nav{
+  padding: 60px 300px;
+  display: flex;
+  justify-content: center;
+  gap: 384px;
+  align-items: center;
+}
+
+header nav .actions {
+  display: flex;
+  gap: 56px;
+}
+
+header nav .actions .links {
+  display: flex;
+  gap: 20px;
+}
+
+header nav .actions .links a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #111111;
+}
+
+header nav .actions button {
+  padding: 5px 20px;
+  font-size: 16px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #CAA892;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: none;
+  cursor: pointer;
+  height: auto;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 0%;
+}
+
+header .logo img {
+  width: 151px;
+  height: 47px;
+  object-fit: cover;
+}
+
+header .home .content .photo img{
+  width: 716px;
+  height: 626px;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+header .home .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+  margin: 100px 270px 150px 270px;
+}
+
+header .home .content .text .title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #646464;
+  margin-bottom: 12px;
+}
+
+header .home .content .text h1 {
+  width: 549px;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 78px;
+  letter-spacing: 0%;
+  color: #212121;
+  margin-bottom: 23px;
+}
+
+header .home .content .text .info {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #646464;
+}
+
+header .home .content .text button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  background-color: #37806B;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+  padding: 12px 28px;
+  margin: 58px auto;
+}
+
+/* HOME SECTION FINISHED */
+
