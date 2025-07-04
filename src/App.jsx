@@ -3,6 +3,10 @@ import logo from './assets/logo.png'
 import homePhoto from './assets/homePhoto.jpg'
 import boxOne from './assets/secondPage.jpg'
 import boxTwo from './assets/thirdPage.jpg'
+import clientOne from './assets/client1.jpg'
+import clientTwo from './assets/client2.jpg'
+import blogOne from './assets/blog1.jpg'
+import blogTwo from './assets/blog2.jpg'
 
 function Design() {
   return (
@@ -110,6 +114,65 @@ function Design() {
       <section className="testimonials">
         <p>TESTIMONIALS</p>
         <h2>Client says about us</h2>
+        <div className="clients">
+          <div className="client">
+            <div className="photo">
+              <img src={clientOne} alt="this is client one photo" />
+            </div>
+            <div className="text">
+              <p className='title'>Louis Saville<span>/CEO at Google Inc</span></p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing <br />
+                elit, sed do eiusmod tempor incididunt ut labore <br />
+                et dolore magna aliqua. <br />
+              </p>
+            </div>
+          </div>
+
+          <div className="client">
+            <div className="photo">
+              <img src={clientTwo} alt="this is client two photo" />
+            </div>
+            <div className="text">
+              <p className='title'>Rekha Varadwaz<span>/Manager at Nike Inc</span></p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing <br />
+                elit, sed do eiusmod tempor incididunt ut labore <br />
+                et dolore magna aliqua. <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="blog">
+        <div className="text">
+          <p>LATEST NEWS</p>
+          <h2>From Our Blog</h2>
+          <div className="blogs">
+            <div className="blog">
+              <div className="photo">
+                <img src={blogOne} alt="this is blog one photo" />
+              </div>
+              <h2>2020 Interior Design Trends</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+              <button>CONTINUE READING</button>
+            </div>
+
+            <div className="blog">
+              <div className="photo">
+                <img src={blogOne} alt="this is blog one photo" />
+              </div>
+              <h2>2020 Interior Design Trends</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+              <button>CONTINUE READING</button>
+            </div>
+          </div>
+        </div>
       </section>
 
 

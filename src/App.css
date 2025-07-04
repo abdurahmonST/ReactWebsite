@@ -203,7 +203,7 @@ header .home .content .text button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 236px auto;
+  margin: 236px auto 100px;
 }
 
 .about .boxes .box {
@@ -268,8 +268,6 @@ header .home .content .text button {
   letter-spacing: 4%;
 }
 
-
-
 .about .boxes .box .photo img {
   height: 726px;
   width: 700px;
@@ -277,3 +275,83 @@ header .home .content .text button {
   border-top-left-radius: 140px;
   border-bottom-right-radius: 140px;
 }
+
+/* TESTIMONIALS SECTION */
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #646464;
+  margin-bottom: 3px;
+}
+
+.testimonials h2{
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #212121;
+  margin-bottom: 99px;
+}
+
+.testimonials .clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 51px;
+}
+
+.testimonials .clients .client{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 44px 33px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  box-shadow: 7px 5px 30px rgba(0, 0, 0, 0.15);
+}
+
+.testimonials .client .client p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #646464;
+}
+
+.testimonials .clients .client .title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #111111;
+  margin-bottom: 8px;
+}
+
+.testimonials .clients .client .title span{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.testimonials .clients .client .photo img {
+  width: 130px;
+  height: 164px;
+  object-fit: cover;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+
+/* BLOGS SECTION */
+
