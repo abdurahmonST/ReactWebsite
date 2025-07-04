@@ -1,6 +1,8 @@
 import './App.css';
 import logo from './assets/logo.png'
 import homePhoto from './assets/homePhoto.jpg'
+import boxOne from './assets/secondPage.jpg'
+import boxTwo from './assets/thirdPage.jpg'
 
 function Design() {
   return (
@@ -47,7 +49,71 @@ function Design() {
           <p>WHAT WE DO</p>
           <h2>Our Service</h2>
         </div>
+        <div className="cards">
+          <div className="card">
+            <div className="text">
+              <h2>Interior Design</h2>
+              <p>Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+          <div className="card">
+            <div className="text">
+              <h2>Architecture</h2>
+              <p>Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+          <div className="card">
+            <div className="text">
+              <h2>Planning</h2>
+              <p>Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+        </div>
       </section>
+
+      <section className="about">
+        <div className="boxes">
+
+          <div className="box">
+            <div className="photo">
+              <img src={boxOne} alt="There is interior photo" />
+            </div>
+            <div className="text">
+              <p className="title">ABOUT US</p>
+              <h2>Interioris The Will of An Epoch Mextreo</h2>
+              <p className="info">There are many variations of passages of Lorem Ipsum available, <br />
+                  but the majority have suffered alteration in some form injected <br />
+                  humour, or randomised words which don't look even slightly <br />
+                  believable.If you are going to use a passage of Lorem Ipsum, <br />
+                  sure there isn't anything embarrassing hidden the middleof text. <br />
+                  All the Lorem Ipsum generators on the Internettend to repeat <br />
+                  predefined chunks as necessary,making this the first true <br />
+                  generator on the Internet. <br />
+                </p>
+              <button>LEARN MORE</button>
+            </div>
+          </div>
+
+          <div className="box">
+            <div className="text">
+              <h2 className="number">20</h2>
+              <h2>Years Of Successful <br />Working <br/>The Market</h2>
+              <button>LEARN MORE</button>
+            </div>
+            <div className="photo">
+              <img src={boxTwo} alt="There is interior photo" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="testimonials">
+        <p>TESTIMONIALS</p>
+        <h2>Client says about us</h2>
+      </section>
+
+
+
     </div>
   )
 }

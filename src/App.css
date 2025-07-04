@@ -119,3 +119,161 @@ header .home .content .text button {
 
 /* HOME SECTION FINISHED */
 
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 150px auto;
+}
+
+.service .text p{
+  margin: 0 100px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -1%;
+  color: #646464;
+  position: relative;
+  top: 14px;
+}
+
+.service .text h2{
+  margin: 0 100px;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 78px;
+  letter-spacing: 0%;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+}
+
+.cards .card {
+  width: 425px;
+  padding: 30px; 
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards .card h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #212121;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.cards .card p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -1%;
+  color: #646464;
+  margin: 0;
+}
+
+.cards .card:nth-child(2) {
+  background-color: #CAA892;
+}
+
+.cards .card:nth-child(2) h2 {
+  color: #FFFFFF;
+}
+
+.cards .card:nth-child(2) p {
+  color: #FFFFFF;
+}
+
+
+/* ABOUT SECTION */
+
+.about .boxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 236px auto;
+}
+
+.about .boxes .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+  margin-bottom: 224px;
+}
+
+.about .boxes .box .title{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #646464;
+}
+
+.about .boxes .box h2 {
+  font-size: 48px;
+  line-height: 57px;
+  letter-spacing: 0%;
+  font-weight: 500;
+  color: #212121;
+}
+
+.about .boxes .box .info{
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  font-weight: 400;
+  color: #646464;
+}
+
+.about .boxes .box button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #37806B;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+}
+
+.about .boxes .box .number {
+  font-style: bold;
+  font-size: 288px;
+  line-height: 28px;
+  letter-spacing: -1%;
+  font-weight: 700;
+  position: relative;
+  bottom: 80px;
+}
+
+.about .boxes .box h2 {
+  margin: 50px 0 30px 0;
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: 4%;
+}
+
+
+
+.about .boxes .box .photo img {
+  height: 726px;
+  width: 700px;
+  object-fit: cover;
+  border-top-left-radius: 140px;
+  border-bottom-right-radius: 140px;
+}
