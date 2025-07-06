@@ -145,37 +145,100 @@ function Design() {
         </div>
       </section>
 
-      <section className="blog">
+      <section className="ourBlog">
         <div className="text">
           <p>LATEST NEWS</p>
           <h2>From Our Blog</h2>
-          <div className="blogs">
-            <div className="blog">
-              <div className="photo">
-                <img src={blogOne} alt="this is blog one photo" />
-              </div>
-              <h2>2020 Interior Design Trends</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />
-                incididunt ut labore et dolore magna aliqua.
-              </p>
-              <button>CONTINUE READING</button>
-            </div>
+        </div>
+        <div className="blogs">
 
-            <div className="blog">
-              <div className="photo">
-                <img src={blogOne} alt="this is blog one photo" />
-              </div>
-              <h2>2020 Interior Design Trends</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />
-                incididunt ut labore et dolore magna aliqua.
-              </p>
-              <button>CONTINUE READING</button>
+          <div className="blog">
+            <div className="photo">
+              <img src={blogOne} alt="this is blog one photo" />
             </div>
+            <h2>2020 Interior Design Trends</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />
+              incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button>CONTINUE READING...</button>
+          </div>
+
+          <div className="blog">
+            <div className="photo">
+              <img src={blogTwo} alt="this is blog one photo" />
+            </div>
+            <h2>28 Notable Product at ARC Interior Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br />
+              incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button>CONTINUE READING...</button>
           </div>
         </div>
       </section>
 
-
+      <section className="contact">
+        <div className="text">
+          <h2>DON'T FORGET TO SING UP</h2>
+          <p>Find out early about all upcoming promotions and new product releases with <br />our newsletter.</p>
+          <div className="inputSection">
+            <input type="text" placeholder='Enter your email address.....'/>
+            <button>SUBSCRIBE</button>
+          </div>
+        </div>
+      </section>
+      
+      <footer>
+        <div className="footer-content">
+          <div className="footer-section">
+            <div className="logo">
+              <img src={logo} alt="Logo" />
+            </div>
+            <p>But i must explain to you all this mistaken
+idea of dencouncing pleasure.</p>
+          </div>
+          <div className="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">About Our Company</a></li>
+              <li><a href="#">Services We Provide</a></li>
+              <li><a href="#">Career & Opportunity</a></li>
+              <li><a href="#">Privacy & Policy</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div className="footer-section">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">About Company</a></li>
+              <li><a href="#">Our Testimonials</a></li>
+              <li><a href="#">Latest News</a></li>
+              <li><a href="#">Our mission</a></li>
+              <li><a href="#">Get a free Quot</a></li>
+            </ul>
+          </div>
+          <div className="footer-section">
+            <h3>Contact Us</h3>
+            <ul>
+              <li><a href="#">Sagarda Familia, Herba</a></li>
+              <li><a href="#">Streen Front USA</a></li>
+              <li><a href="#">brandoxide@gmail.com</a></li>
+              <li><a href="#">002-568423591</a></li>
+            </ul>
+          </div>
+          <div className="footer-section">
+            <h3>Follow Us</h3>
+            <div className="social-links">
+              <a href="#">f</a>
+              <a href="#">t</a>
+              <a href="#">i</a>
+              <a href="#">l</a>
+            </div>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <p>&copy; 2025 Interioris. All rights reserved.</p>
+        </div>
+      </footer>
 
     </div>
   )
